@@ -3,6 +3,7 @@ var bodyParser = require("body-parser");
 const {request, response } = require("express");
 var cors = require('cors');
 var mysql = require('mysql');
+const path = require('path');
 
 const buildPath = path.join(__dirname, 'build')
 const port = process.env.PORT || 3001;
